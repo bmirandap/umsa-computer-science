@@ -61,7 +61,7 @@ body{
 }
 
 .slider-container{
-    color: rgb(245,241,245);
+    color: blue;
     font-family: fantasy;
     font-size: 40px;
     left: 50%;
@@ -73,8 +73,8 @@ body{
     top: 50%;
 }
 .slogan:hover{
-    color: aquamarine;
-    font-size: 60px;
+    color: black;
+    font-size: 70px;
 }
 /* Seccion 3: Texto y mosaicos de fotos */
 .text-mosaic{
