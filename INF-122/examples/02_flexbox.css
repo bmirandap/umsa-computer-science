@@ -1,0 +1,85 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding: 0;
+}
+header{
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+}
+.nav2{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    justify-content: flex-start;
+}
+.nav3{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    justify-content: flex-end;
+}
+.nav4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: gray;
+}
+nav a{
+    border: 1px solid azure;
+    border-radius: 10px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    padding: 8px;
+    text-decoration: none; /* Quitar el subrayado de los enlaces */
+
+}
+a:hover{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap; /* wrap los elementos hijos se moverán a la siguiente línea si no caben en la línea actual. */
+}
+aside{
+    flex: 40%;
+    background-color: cadetblue;
+    padding: 15px;
+}
+section{
+    flex: 60%;
+    background-color: chocolate;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+    gap: 2%;
+}
+img{
+    width: 49%;
+    margin-top: 2%;
+}
+.row{
+    flex: 100%;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+footer{
+    flex: 100%;
+    background-color: cornflowerblue;
+    padding: 15px;
+    text-align: center;
+}

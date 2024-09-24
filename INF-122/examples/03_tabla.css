@@ -1,0 +1,52 @@
+/* Estilo por filas */
+.table1 tr:nth-child(1){
+    background-color: lightyellow;
+}
+.table1 tr:nth-child(2){
+    background-color: lightpink;
+}
+.table1 tr:nth-child(3){
+    background-color: lightgray;
+}
+
+/* Estilo por columnas */
+.table2 td:nth-child(1){
+    background-color: lightyellow;
+}
+.table2 td:nth-child(2){
+    background-color: lightpink;
+}
+.table2 td:nth-child(3){
+    background-color: lightgray;
+}
+
+/* Estilo por celdas individuales*/
+.table3 tr:nth-child(1) td:nth-child(1){
+    background-color: #ffcccc;
+}
+.table3 tr:nth-child(2) td:nth-child(2){
+    background-color: #ccffcc;
+}
+.table3 tr:nth-child(3) td:nth-child(3){
+    background-color: #ccccff;
+}
+.table3 tr:nth-child(3) td:nth-child(4){
+    background-color: #ff9999;
+}
+
+/* Estilo alternado en filas y columnas */
+.table4 tr:nth-child(odd) td:nth-child(even),
+.table4 tr:nth-child(even) td:nth-child(odd){
+    background-color: cyan;
+}
+
+/* Bordes diferentes para cada fila */
+.table5 tr:nth-child(1) td{
+    border: 2px dotted purple;
+}
+.table5 tr:nth-child(2) td{
+    border: 2px solid red;
+}
+.table5 tr:nth-child(3) td{
+    border: 2px dashed green;
+}

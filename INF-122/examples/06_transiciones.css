@@ -1,0 +1,52 @@
+div{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+    text-align: center;
+    transition: all 0.5 ease;
+}
+/* 1. Cambio de color de fondo */
+.transition1:hover{
+    background-color: lightblue;
+}
+/* 2. Cambio de tamaño de fuente */
+.transition2:hover{
+    font-size: 24px;
+}
+/* 3. Desplazamiento de izquierda a derecha */
+.transition3:hover{
+    transform: translateX(100px);
+}
+/* 4. Cambio de opacidad */
+.transition4:hover{
+    opacity: 0.5;
+    font-style: oblique;
+}
+/* 5. Cambio de color de texto */
+.transition5:hover{
+    color: red;
+    font-family: cursive;
+}
+/* 6. Cambio de altura */
+.transition6:hover{
+    height: 100px;
+    padding-top: 40px;
+}
+/* 7. Cambio de ancho */
+.transition7:hover{
+    width: 300px;
+    color: blue;
+}
+/* 8. Rotación */
+.transition8:hover{
+    transform: rotate(45deg);
+}
+/* 9. Cambio de sombra de caja */
+.transition9:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+/* 10. Transformación en escala */
+.transition10:hover{
+    transform: scale(1.5);
+}

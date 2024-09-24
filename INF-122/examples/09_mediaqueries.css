@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Seccion 1: Menu */
+.menu-list{
+    display: flex;
+    align-items: center;
+    background-color: #0b8abd;
+    padding: 10px;
+}
+.menu-list img{
+    height: auto;
+    margin-right: 50px; /*Espacio entre el logo y el */
+    transition: transform 0.3s ease;
+    width: 50px; /* Ajusta el tamaño del logo */
+}
+.menu-list img:hover{
+    transform: scale(1.1);
+}
+.menu-list ul{
+    display: flex;
+    gap: 50px;
+    list-style: none; /* Elimina marcadores de las lineas */
+    margin: 0;
+    padding: 0;
+}
+.menu-list ul li{
+    position: relative;
+}
+.menu-list ul li a{
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.menu-list ul li a:hover{
+    background-color: brown;
+    border-radius: 5px;
+    transform: scale(1.2);
+}
+
+/* Seccion 2: Slider de fotos :tarjeta 3 contenido3*/
+.slider{
+    position: relative;
+    max-height: 800px;
+    max-width: 100%;
+    width: 100%;
+}
+/* Asegura que la imagen cubra el contenedor sin dis */
+.slider img{
+    height: 300px;
+    object-fit: cover; /* hace que el contenido se ajuste al contenedor de tal manera que llene completamente el espacio disponible*/
+    width: 100%;
+}
+
+.slider-container{
+    color: rgb(245,241,245);
+    font-family: fantasy;
+    font-size: 40px;
+    left: 50%;
+    margin-bottom: 10px;
+    padding: 20px;
+    position: absolute; 
+    text-align: center;
+    transform: translate(-50%, -50%); /* Para mover un elemento en relación a su posición original */
+    top: 50%;
+}
+.slogan:hover{
+    color: aquamarine;
+    font-size: 60px;
+}
+/* Seccion 3: Texto y mosaicos de fotos */
+.text-mosaic{
+    display: grid;
+    /*2 columnas la primera 1fr y la segunda 2fr*/
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.text-content{
+    background-color: rgb(136,136,235);
+    height: 150px;
+    width: 500px;
+}
+.mosaic{
+    display: grid;
+    background-color: chocolate;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    height: 150px;
+}
+/* Seccion 4: Cards */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    
+}
+.card{
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Seccion 5: Formulario de contacto y fotografia */
+.contact-photo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+.contact-form{
+    background-color: green;
+    height: 180px;
+}
+.photo{
+    background-color: red;
+    height: 180px;
+}
+
+/* Puntos de quiebre */
+
+/*Tablet 768xpx*/
+@media(max-width: 768px){
+    .menu-list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .text-mosaic{
+        grid-template-columns: 1fr;
+    }
+    .mosaic{
+        grid-template-columns: 1fr;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-photo{
+        grid-template-columns: 1fr;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Movil 320x480  */
+@media(max-width:320px){
+    .menu-list{
+        grid-template-columns: 1fr;
+    }
+    .text-content{
+        padding: 10px;
+    }
+    .mosaic{
+        grid-template-columns: 1fr;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .contact-form{
+        padding: 10px;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+/* 500 x 1024 */
+@media(max-width: 500px){
+    .menu-list{
+        grid-template-columns: repeat(2, fr);
+    }
+    .text-mosaic{
+        grid-template-columns: 1fr;
+    }
+    .mosaic{
+        grid-template-columns: 1fr;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .contact-photo{
+        grid-template-columns: 1fr;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+    }
+}
+

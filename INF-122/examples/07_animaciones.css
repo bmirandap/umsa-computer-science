@@ -1,0 +1,127 @@
+div{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+    text-align: center;
+    transition: all 0.5 ease;
+}
+
+/* ANIMACIONES */
+/* 1. Cambio de color de fondo */
+@keyframes backgroundChange{
+    0% { background-color: white; }
+    50% { background-color: lightblue; }
+    100% { background-color: white; }
+}
+
+.animation1{
+    animation: backgroundChange 3s infinite;
+}
+
+/* 2. Cambio de tamaño de fuente */
+@keyframes fontSizeChange{
+    0% { font-size: 16px; }
+    50% { font-size: 24px; }
+    100% { font-size: 16px; }
+}
+
+.animation2{
+    animation: fontSizeChange 2s infinite;
+}
+
+/* 3. Desplazamiento de izquierda a derecha */
+@keyframes moveRight{
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0); }
+}
+
+.animation3{
+    animation: moveRight 2s infinite;
+}
+
+/* 4. Cambio de opacidad */
+@keyframes opacityChange{
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.animation4{
+    animation: opacityChange 2s infinite;
+}
+
+/* 5. Cambio de color de texto */
+@keyframes textColorChange{
+    0% { color: black; }
+    50% { color: red; }
+    100% { color: black; }
+}
+
+.animation5{
+    animation: textColorChange 3s infinite;
+}
+
+/* 6. Cambio de altura */
+@keyframes heightChange {
+    0% { height: 50px; }
+    50% { height: 50px; }
+    100% { height: 100px; }
+}
+
+.animation6{
+    animation: heightChange 3s infinite;
+    overflow: hidden;
+}
+
+/* 7. Cambio de ancho */
+@keyframes widthChange {
+    0% { width: 50px; }
+    50% { width: 50px; }
+    100% { width: 100px; }
+}
+
+.animation7{
+    animation: widthChange 2s infinite;
+}
+
+/* 8. Rotación */
+@keyframes rotation {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.animation8{
+    animation: rotation 4s infinite;
+}
+
+
+/* 9. Cambio de sombra de caja */
+@keyframes boxShadowChange {
+    0% { box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+    50% { box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); }
+    100% { box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+}
+
+.animation9{
+    animation: boxShadowChange 3s infinite;
+}
+
+/* Transformación en escala */
+@keyframes scaleChange {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+
+.animation10 {
+    animation: scaleChange 2s infinite;
+}
+
+
+
+
+
+
