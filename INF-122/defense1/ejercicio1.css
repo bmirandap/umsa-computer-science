@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    gap: 20px;
+    margin:15px;
+}
+
+.logo{
+    width: 100%;
+    height: 100px;
+    border: 3px solid black;
+    padding: 10px;
+}
+.text-logo{
+    background-color: rgb(0, 119, 255);
+    height: 75px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    border: 3px solid black;
+    padding: 10px;
+}
+.text-menu{
+    background-color: rgb(216, 227, 248);
+    height: 75px;
+    text-align: center;
+    padding-top: 20px;
+}
+.slider{
+    width: 100%;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+}
+.text-slider{
+    background-color: orange;
+    height: 175px;
+    text-align: center;
+    padding-top: 120px;
+}
+.contenido1{
+    display: grid;
+    grid-template-columns: 2;
+    gap: 20px;
+    border: 3px solid black;
+    padding: 10px;
+}
+.tabla1{
+    grid-column: 1;
+    background-color: greenyellow;
+    height: 270px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.tarjetas{
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 3;
+    gap: 20px;
+}
+.titulo{
+    grid-row: 1;
+    background-color: rgb(4, 53, 8);
+    height: 50px;
+    padding: 10px;
+}
+.tarjeta1{
+    grid-row: 2;
+    background-color: rgb(142, 211, 38);
+    height: 90px;
+    padding-left: 10px;
+    padding-top: 60px;
+}
+.tarjeta2{
+    grid-row: 3;
+    background-color: rgb(195, 216, 163);
+    height: 90px;
+    padding-left: 10px;
+    padding-top: 60px;
+}
+.contenido2{
+    display: grid;
+    grid-template-columns: 2;
+    gap: 20px;
+    border: 3px solid black;
+    padding: 10px;
+}
+.tabla2{
+    grid-column: 1;
+    background-color: gray;
+    height: 270px;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+div.contenido3{
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 2;
+    gap: 20px;
+}
+.morado{
+    grid-row: 1;
+    height: 125px;
+    background-color: purple;
+    padding-left: 15px;
+    padding-top: 100px;
+}
+.formulario{
+    grid-row: 2;
+    height: 125px;
+    background-color: rgb(226, 43, 226);
+    padding-top: 100px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 4;
+    border: 3px solid black;
+    gap: 20px;
+    height: 180px;
+    padding: 10px;
+}
+.square1{
+    grid-column: 1;
+    background-color: red;
+    height: 150px;
+}
+.square2{
+    grid-column: 2;
+    background-color: red;
+    height: 150px;
+}
+.square3{
+    grid-column: 3;
+    background-color: red;
+    height: 150px;
+}
+.square4{
+    grid-column: 4;
+    background-color: red;
+    height: 150px;
+}

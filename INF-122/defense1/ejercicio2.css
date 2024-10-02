@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:15px;
+}
+.logo{
+    background-color: greenyellow;
+    height: 60px;
+    padding: 10px;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: flex-end;
+}
+.nav a{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    padding: 8px;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+.text-menu{
+    background-color: rgb(216, 227, 248);
+    height: 75px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Asegura que la imagen cubra el contenedor sin dis */
+.slider img{
+    height: 300px;
+    object-fit: cover; /* hace que el contenido se ajuste al contenedor de tal manera que llene completamente el espacio disponible*/
+    width: 100%;
+}
+
+.text-slider{
+    background-color: orange;
+    height: 175px;
+    text-align: center;
+    padding-top: 120px;
+}
+.contenido1{
+    display: grid;
+    grid-template-columns: 2;
+    gap: 20px;
+    padding: 10px;
+}
+.tabla1{
+    grid-column: 1;
+    height: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-rows: 2;
+    text-align: center;
+    gap: 20px;
+}
+.image{
+    grid-row: 1;
+}
+.info1{
+    grid-row: 2;
+}
+.tarjetas{
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 2;
+    gap: 20px;
+}
+.tarjeta1{
+    grid-row: 1;
+    display: flex;
+    align-items: flex-start;
+}
+.tarjeta1 > img{
+    width: 150px;
+    height: 150px;
+}
+.info {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tarjeta2{
+    grid-row: 2;
+    display: flex;
+    align-items: flex-start;
+}
+.tarjeta2 > img{
+    width: 150px;
+    height: 150px;
+}
+.contenido2{
+    display: grid;
+    grid-template-columns: 2;
+    gap: 20px;
+    padding: 10px;
+}
+.tabla2{
+    grid-column: 1;
+    /*height: 270px;*/
+}
+table{
+    border: 1px solid black;
+    width: 100%;
+}
+thead td{
+    background-color: red;
+    color: white;
+}
+td{
+    padding: 5px;
+}
+
+div.contenido3{
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 2;
+    gap: 20px;
+}
+.morado{
+    grid-row: 1;
+    text-align: center;
+    padding-left: 15px;
+
+}
+.formulario{
+    grid-row: 2;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.input-group{
+    margin-bottom: 15px;
+    text-align: left;
+}
+.input-group label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.input-group input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+.btn-login{
+    background-color: #332ba7;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 4;
+    gap: 20px;
+    height: 180px;
+    padding: 10px;
+}
+.square1{
+    grid-column: 1;
+    background-color: red;
+    height: 150px;
+}
+.square2{
+    grid-column: 2;
+    background-color: red;
+    height: 150px;
+}
+.square3{
+    grid-column: 3;
+    background-color: red;
+    height: 150px;
+}
+.square4{
+    grid-column: 4;
+    background-color: red;
+    height: 150px;
+}
