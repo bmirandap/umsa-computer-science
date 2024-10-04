@@ -1,0 +1,37 @@
+.logo{
+    color: white !important;
+    font-weight: bolder;
+}
+
+img{
+    height: 130px;
+    width: 130px;
+}
+
+.texto{
+    border: 3px solid green;
+}
+.img1, .img2{
+    border: 1px solid red;
+}
+
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+
+.first-content{
+    background-color: rgb(243, 193, 101);
+}
+
+.img3{
+    height: 250px;
+    width: 150px;
+}
+
+.bg-image{
+    background-image: url('https://blog.ssd.com.py/wp-content/uploads/2022/09/tipos-de-redes-informaticas-ssd-1.jpg') !important;
+    background-size: cover !important; 
+    background-position: center !important;
+    color: white;
+}
