@@ -1,0 +1,22 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: lightgray;
+}
+
+.boton{
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+
+.editar{
+    background-color: green;
+}
